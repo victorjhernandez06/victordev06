@@ -20,7 +20,6 @@ display: flex;
     gap:5px;
 }
 
-
 .resume__title{
     font-size:4rem;
 }
@@ -38,3 +37,82 @@ display: flex;
     width:100%;
 }
 
+.section__experience{
+    display:grid;
+    grid-template-columns: 35% 60%;
+    gap: 10px;
+}
+
+.experience__myself{
+display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+
+.experience__wds,
+.experience__asvy,
+.experience__tantomarketing{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    background-color: blue;
+    margin:0 auto;
+    margin:3px;
+    padding:22px;
+    border:1px solid black;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.experience__wds{
+    background-color: antiquewhite;
+}
+
+.experience__asvy{
+    background-color: lightcyan;
+}
+
+.experience__tantomarketing{
+    background-color: lightgrey;
+}
+
+.wds__img > img,
+.tantomarketing__img > img,
+.asvy__img > img{
+    border-radius: 500px;
+    width:200px;
+}
+
+.experience__asvy,
+.experience__tantomarketing,
+.experience__wds {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.asvy__img,
+.tantomarketing__img,
+.wds__img { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.asvy__img img,
+.tantomarketing__img img,
+.wds__img img {
+    width: 100px; 
+    height: auto;
+}
+
+.asvy__info,
+.tantomarketing__info,
+.wds__info {
+    flex: 1; 
+}
