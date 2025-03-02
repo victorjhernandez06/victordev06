@@ -2,6 +2,7 @@ html {
   font-family: ubuntu;
   font-size: 10px;
 }
+
 body {
   font-size: 1.6rem;
   background-color: whitesmoke;
@@ -22,7 +23,9 @@ header {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  padding: 5%;
 }
+
 
 .resume__title {
   font-size: 4rem;
@@ -41,12 +44,17 @@ header {
   width: 100%;
 }
 
+.container__download{
+    padding: 5%;
+}
+
 .section__experience {
   display: grid;
-  grid-template-columns: 35% 60%;
+  grid-template-columns: 40% 50%;
   gap: 10px;
   padding: 2px;
-  margin: 3%;
+  margin: 2%;
+  justify-content: center;
 }
 
 .experience__myself {
@@ -56,7 +64,15 @@ header {
   justify-content: center;
   gap: 5px;
   margin-top: 5%;
+  padding:5%;
 }
+
+.work__title{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
 
 .work__text {
   margin-left: 20px;
@@ -140,7 +156,8 @@ header {
   padding: 5%;
 }
 
-.type__title {
+.type__title,
+.download__resume {
   text-align: center;
   font-weight: 800;
   font-size: 2.5em;
