@@ -23,7 +23,9 @@ header {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  padding: 5%;
+  padding: 6%;
+  align-items: normal;
+  align-content: stretch;
 }
 
 
