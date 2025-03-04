@@ -23,7 +23,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  padding: 6%;
+  padding: 10%;
   align-items: normal;
   align-content: stretch;
 }
@@ -47,7 +47,7 @@ header {
 }
 
 .container__download{
-    padding: 5%;
+    padding: 10%;
 }
 
 .section__experience {
@@ -254,4 +254,71 @@ figcaption {
 
 .type__info {
   text-align: center;
+}
+
+.container__projects,
+.container__social,
+.container__features{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:20px;
+  padding: 5%;  
+}
+
+.projects__collections,
+.collections__social,
+.collections__features{
+  flex:1;
+  min-width: 300px;
+  padding: 7%; 
+}
+
+
+.collections__title,
+.collections__text,
+.projects__collections ul,
+.collections__social ul,
+.collections__features ul{
+  display: block;
+  text-align: left;
+}
+
+.collections__img{
+  display: grid;
+  grid-template-columns: repeat(2,  1fr);
+  gap: 15px;
+  flex:1;
+  min-width: 300px;
+}
+
+.collections__img figure{
+  margin:0;
+  padding: 0;
+}
+
+
+.collections__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.collection__button {
+  margin-top: 20px;
+}
+
+.collection__button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.collection__button button:hover {
+  background-color: #0056b3;
 }
