@@ -43,11 +43,17 @@ header {
 
 .section__download {
   background-color: white;
-  width: 100%;
+
+
 }
 
 .container__download{
-    padding: 10%;
+    /* padding: 10%; */
+  display: block;
+  margin: 0 auto;
+  padding: 3%;
+  padding-bottom: 0px;
+  text-align: center;
 }
 
 .section__experience {
@@ -305,11 +311,20 @@ figcaption {
   border-radius: 8px;
 }
 
-.collection__button {
+.collection__button,
+.resume__button,
+.container__download__button {
   margin-top: 20px;
 }
 
-.collection__button button {
+.container__download__button {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.collection__button button,
+.resume__button button,
+.container__download__button button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -319,6 +334,8 @@ figcaption {
   transition: background 0.3s ease;
 }
 
-.collection__button button:hover {
+.collection__button button:hover,
+.resume__button button:hover,
+.container__download__button button:hover{
   background-color: #0056b3;
 }
