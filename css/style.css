@@ -339,3 +339,7 @@ figcaption {
 .container__download__button button:hover{
   background-color: #0056b3;
 }
+
+footer{
+  background-color: #333;
+}
