@@ -1,3 +1,7 @@
+:root{
+--color-background: #fff;
+}
+
 html {
   font-family: ubuntu;
   font-size: 10px;
@@ -9,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #fff;
+  background-color: var(--color-background);
 }
 
 .container {
@@ -28,7 +32,6 @@ header {
   align-content: stretch;
 }
 
-
 .resume__title {
   font-size: 4rem;
   margin-bottom: 0px;
@@ -42,9 +45,7 @@ header {
 }
 
 .section__download {
-  background-color: white;
-
-
+  background-color: var(--color-background);
 }
 
 .container__download{
@@ -152,7 +153,7 @@ header {
 
 .container__skills {
   padding: 5%;
-  background-color: #fff;
+  background-color: var(--color-background);
 }
 
 .skills__skill {
@@ -272,6 +273,11 @@ figcaption {
   padding: 5%;  
 }
 
+.container__social{
+  background-color: var(--color-background);
+}
+
+
 .projects__collections,
 .collections__social,
 .collections__features{
@@ -280,7 +286,6 @@ figcaption {
   padding: 7%; 
 }
 
-
 .collections__title,
 .collections__text,
 .projects__collections ul,
@@ -288,6 +293,11 @@ figcaption {
 .collections__features ul{
   display: block;
   text-align: left;
+}
+
+.references__title,
+.references__text{
+text-align: center;
 }
 
 .collections__img{
@@ -342,4 +352,30 @@ figcaption {
 
 footer{
   background-color: #333;
+}
+
+.container__references{
+  background-color: var(--color-background);
+  align-items: center;
+  justify-items: center;
+
+}
+
+.references__peoples{
+  display:flex;
+  align-items: center;
+  gap:3%;
+  margin: 0;
+  justify-items: center;
+  margin:3%;
+}
+
+.references__people-1,
+.references__people-2,
+.references__people-3
+  {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
