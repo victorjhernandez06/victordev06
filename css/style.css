@@ -3,7 +3,7 @@
 }
 
 html {
-    font-family: ubuntu;
+    font-family: ubuntu, serif;
     font-size: 10px;
 }
 
@@ -29,13 +29,12 @@ header {
     justify-content: center;
     gap: 5px;
     padding: 10%;
-    align-items: normal;
     align-content: stretch;
 }
 
 .resume__title {
     font-size: 4rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .container__foto > img {
@@ -54,7 +53,7 @@ header {
     display: block;
     margin: 0 auto;
     padding: 3%;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -86,7 +85,7 @@ header {
 
 .work__text {
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 2px;
 }
 
@@ -161,8 +160,8 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     padding: 5%;
 }
 
@@ -171,7 +170,7 @@ header {
     text-align: center;
     font-weight: 800;
     font-size: 2.5em;
-    margin: 0px;
+    margin: 0;
     margin-top: 30px;
 }
 
